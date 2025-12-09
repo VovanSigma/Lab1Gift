@@ -16,21 +16,17 @@
 Консольний клас `Main` містить мінімальне меню для взаємодії з користувачем.
 
 ## Структура проєкту
-src/
-└── ua.lab1.gift
-    ├── app
-    │   └── Main.java
-    └── model
-        ├── candy/
-        │   ├── Candy.java
-        │   ├── ChocolateCandy.java
-        │   └── JellyCandy.java
-        └── NewYearGift.java
 
-test/
-└── ua.lab1.gift.model
-    └── NewYearGiftTest.java
+Основні файли:
 
+`src/ua/lab1/gift/app/Main.java`
+`src/ua/lab1/gift/model/NewYearGift.java`
+`src/ua/lab1/gift/model/candy/Candy.java`
+`src/ua/lab1/gift/model/candy/ChocolateCandy.java`
+`src/ua/lab1/gift/model/candy/JellyCandy.java`
+
+Тести:
+`test/ua/lab1/gift/model/NewYearGiftTest.java`
 
 
 ## Юніт-тести
