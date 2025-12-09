@@ -17,19 +17,20 @@
 
 ## Структура проєкту
 src/
-└── ua.lab1.gift
-├── app
-│ └── Main.java
-└── model
-├── candy/
-│ ├── Candy.java
-│ ├── ChocolateCandy.java
-│ └── JellyCandy.java
-└── NewYearGift.java
+ └── ua.lab1.gift
+      ├── app
+      │    └── Main.java
+      └── model
+           ├── candy/
+           │     ├── Candy.java
+           │     ├── ChocolateCandy.java
+           │     └── JellyCandy.java
+           └── NewYearGift.java
 
 test/
-└── ua.lab1.gift.model
-└── NewYearGiftTest.java
+ └── ua.lab1.gift.model
+       └── NewYearGiftTest.java
+
 
 ## Юніт-тести
 Для перевірки роботи логіки використано JUnit 5.  
